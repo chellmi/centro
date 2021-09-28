@@ -30,9 +30,7 @@ nav li:hover{
 .carrusel{
     margin:auto;
     background-color:rgb(134, 238, 203);
-    position: relative;
     width: 800px;
-    height: 370px;
     padding: 30px;
 }
 
@@ -42,7 +40,7 @@ ul,li{
     list-style: none;
 }
 
-ul.silder{
+ul.slider{
     width: 800px;
     height: 300px;
     position:relative;
@@ -72,8 +70,6 @@ ul.slider li:target{
 }
 
 .menu{
-    position:absolute;
-    top: 320px;
     text-align: center;
     margin: 20px;
 }
@@ -89,8 +85,8 @@ ul.slider li:target{
     text-decoration: none;
     background-color: grey;
     padding: 10px;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     font-size: 20px;
     border-radius: 100%;
 }
